@@ -147,7 +147,7 @@ GROUND -> power minus
 - A (or two) small black plastic boxes
 - Cable ties, luster terminals, M3s
  
-![alt text](../master/public/images/gst-camlink-jetson-01.jpg?raw=true "The box. A IKEA screw box.")
-![alt text](../master/public/images/gst-camlink-jetson-02.jpg?raw=true "Front")
-![alt text](../master/public/images/gst-camlink-jetson-03.jpg?raw=true "Rear")
-![alt text](../master/public/images/gst-camlink-jetson-04.jpg?raw=true "Mobile")
+![alt text](../master/images/gst-camlink-jetson-01.jpg?raw=true "The box. A IKEA screw box.")
+![alt text](../master/images/gst-camlink-jetson-02.jpg?raw=true "Front")
+![alt text](../master/images/gst-camlink-jetson-03.jpg?raw=true "Rear")
+![alt text](../master/images/gst-camlink-jetson-04.jpg?raw=true "Mobile")
