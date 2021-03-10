@@ -35,6 +35,7 @@ sudo apt-get install htop nano curl git autofs exfat-fuse hostapd dnsmasq -y
 
 ### node.js
 ```
+sudo su
 curl -L https://git.io/n-install | bash
 ```
 
@@ -56,9 +57,10 @@ sudo nano /etc/auto.automnt
   camsd -fstype=exfat :/dev/disk/by-uuid/CHANGE!ME
   ```
 
-- create dir
+- create dir (not as root)
 ```
 mkdir /automnt
+chown $USER:$USER
 ```
 
 - auto.master
@@ -75,16 +77,28 @@ sudo nano /etc/auto.master
 sudo service autofs restart
 ```
 
-### run
+### run (development)
 ```
+sudo su
 cd /somewhere/on/my/disk/gst-camlink-jetson
+npm install
 npm start
 ```
 
 ### run it with system start
 ```
+sudo su
 npm install pm2 -g
 pm2 startup
+
+cd /somewhere/on/my/disk/gst-camlink-jetson
+pm2 start "npm start" --name "camlink"
+pm2 save
+```
+
+- check
+```
+pm2 logs
 ```
 
 ### nodeMCU
