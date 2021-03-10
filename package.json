@@ -1,0 +1,18 @@
+{
+  "name": "gst-camlink-jetson",
+  "version": "1.0.0",
+  "description": "node app to record from camlink 4k with gst-launch",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules --experimental-json-modules index.js"
+  },
+  "author": "Matthias Kallenbach",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^4.5.1",
+    "express": "^4.17.1",
+    "fs-extra": "^9.1.0",
+    "websocket": "^1.0.33"
+  }
+}

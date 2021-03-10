@@ -1,0 +1,17 @@
+{
+  "debug": 1,
+  "device": "/dev/video0",
+  "num_buffers": -1,
+  "format": "NV12",
+  "width": 1920,
+  "height": 1080,
+  "framerate": 50,
+  "bitrate": 100000000,
+  "preset_level": 4,
+  "iframeinterval": 5,
+  "control_rate": 1,
+  "EnableTwopassCBR": 1,
+  "io_mode": 2,
+  "vbv_size": 90,
+  "target_path": "recordings"
+}
