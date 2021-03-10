@@ -15,7 +15,7 @@ I hope that you know what you do. if not: educate your mind.
 ### setup
 - update
 ```
-sudo aput-get update -y
+sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
 
@@ -113,3 +113,41 @@ D1 -> button left
 GROUND -> power minus
 5V -> power plus
 ```
+
+## Hardware
+
+### the box
+- IKEA screw box case
+- nvidia jetson nano
+- Elgato camlink 4k usb 3 stöpsel
+- SD Card reader (writer) usb
+- Wifi usb stöpsel
+- A bike battery (37V / 12Ah)
+- 1 x dc down converter from bike battery to 12V
+- 1 x dc down converter from 12V to 5V
+- Cigarette lighter socket
+- 2 x power on switch
+- Some luster terminals
+- Wires, end sleeves, cable ties, M3 screws and mothers, spacers
+- Short but thick USB extension cable (camlink)
+
+### camera
+- DSLR camera with "clean video" output. means: pure (mini) hdmi output without display elements on it.
+- External power battery for the cam to usb
+- mini hdmi to hdmi cable short (into the splitter)
+- hdmi splitter with usb power
+- hdmi wire (into the box)
+- 1 x dc down converter from 12V to 5V
+- 2 x 12V LED lights
+- mini D1 nodeMCU
+- usb mother plates (to powering the cam and the splitter)
+- camera cage (solid steel)
+- 2 x switches (Lights, Record)
+- 3 x cable entries
+- A (or two) small black plastic boxes
+- Cable ties, luster terminals, M3s
+ 
+![alt text](../master/public/images/gst-camlink-jetson-01.jpg?raw=true "The box. A IKEA screw box.")
+![alt text](../master/public/images/gst-camlink-jetson-02.jpg?raw=true "Front")
+![alt text](../master/public/images/gst-camlink-jetson-03.jpg?raw=true "Rear")
+![alt text](../master/public/images/gst-camlink-jetson-04.jpg?raw=true "Mobile")
